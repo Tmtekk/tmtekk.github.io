@@ -1,8 +1,8 @@
-/* @font-face {
+@font-face {
 font-family: "HardestStyleDemo";
 src: url('../HardestStyleDemo.otf') format('opentype'),
 url('../HardestStyleDemo.ttf') format('truetype');
-} */
+}
 
 #viewport{
   min-height: 90%;
@@ -31,7 +31,7 @@ body{
 
 #myName{
   font-family: "HardestStyleDemo", 'Libre Baskerville', serif;
-  font-size: 5em;
+  font-size: 2em;
 }
 
 #navs{
