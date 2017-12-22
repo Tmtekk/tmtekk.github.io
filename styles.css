@@ -40,37 +40,24 @@ body{
   text-align: right;
 }
 
-#about:link{
+.link{
+
+}
+
+.link:link{
   text-decoration: none;
 }
 
-#about:visited{
+.link:visited{
   text-decoration: none;
 }
 
-#about:hover {
+.link:hover {
   background-color: #77DD77;
   cursor:pointer;
 }
 
-#about:active {
-  background-color: #DD7777;
-}
-
-#projects:link{
-  text-decoration: none;
-}
-
-#projects:visited{
-  text-decoration: none;
-}
-
-#projects:hover {
-  background-color: #77DD77;
-  cursor:pointer;
-}
-
-#projects:active {
+.link:active {
   background-color: #DD7777;
 }
 
