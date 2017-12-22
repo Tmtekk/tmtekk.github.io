@@ -5,6 +5,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 	<title>Tim Miller</title>
 	<link rel="stylesheet" type="text/css" href="styles.css">
+	<script src="function.js"></script>
 	<link href="https://fonts.googleapis.com/css?family=Libre+Baskerville" rel="stylesheet">
 </head>
 
@@ -19,8 +20,9 @@
 
 			</div>
 			<div id=navs>
-				<div id="about"> About Me </div>
-				<div id="projects"> Experiments </div>
+				<a id="about" onclick="toggleAboutMe()"> About Me </a>
+				</br>
+				<a id="projects" onclick="toggleExperiments()"> Experiments </a>
 				<div id="github"> Github </div>
 				<div id="contact"> Contact </div>
 			  <div id="resume"> Resum&eacute; </div>
@@ -32,7 +34,12 @@
 	</div>
 
 	<div id=mainGrid>
-		<div id="main">
+		<div id="mainAbout">
+				Hola, I'm Tim. I'm software developer with many interests.
+				........
+		</div>
+
+		<div id="mainExperiments">
 				wwwwwwww
 		</div>
 	</div>

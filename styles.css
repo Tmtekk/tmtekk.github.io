@@ -40,15 +40,59 @@ body{
   text-align: right;
 }
 
+#about:link{
+  text-decoration: none;
+}
+
+#about:visited{
+  text-decoration: none;
+}
+
+#about:hover {
+  background-color: #77DD77;
+  cursor:pointer;
+}
+
+#about:active {
+  background-color: #DD7777;
+}
+
+#projects:link{
+  text-decoration: none;
+}
+
+#projects:visited{
+  text-decoration: none;
+}
+
+#projects:hover {
+  background-color: #77DD77;
+  cursor:pointer;
+}
+
+#projects:active {
+  background-color: #DD7777;
+}
+
 #mainGrid{
   display: grid;
   grid-template-columns: 50% 50%;
+  grid-template-rows: 70% 30%;
   min-height:100vh;
 }
 
-#main{
+#mainAbout{
   font-size: 1.5em;
   grid-column: 2;
+  grid-row: 1;
+  display: none;
+}
+
+#mainExperiments{
+  font-size: 1.5em;
+  grid-column: 2;
+  grid-row: 1;
+  display: none;
 }
 
 #sepGrid{
