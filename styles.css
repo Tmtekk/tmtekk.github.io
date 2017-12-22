@@ -75,6 +75,10 @@ body{
   display: none;
 }
 
+#tetons{
+  padding-bottom: 15px;
+}
+
 #mainExperiments{
   font-size: 1.5em;
   grid-column: 2;
