@@ -5,8 +5,8 @@ src: url('Hensa.otf') format('opentype'), url('Hensa.ttf') format('truetype');
 
 @font-face {
 font-family: "HardestStyleDemo";
-src: url('./tmtekk.github.io/HardestStyleDemo.otf') format('opentype'),
-url('./tmtekk.github.io/HardestStyleDemo.ttf') format('truetype');
+src: url('./HardestStyleDemo.otf') format('opentype'),
+url('./HardestStyleDemo.ttf') format('truetype');
 }
 
 #viewport{
