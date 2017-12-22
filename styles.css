@@ -10,9 +10,9 @@ url('HardestStyleDemo.ttf') format('truetype');
 }
 
 #viewport{
-	min-height: 90%;
+  min-height: 90%;
   width: 90%;
-	position: absolute;
+  position: absolute;
 }
 
 
