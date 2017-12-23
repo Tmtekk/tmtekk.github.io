@@ -22,6 +22,7 @@ body{
   grid-template-columns: 33.3% 33.3% 33.3%;
   padding-top: 50px;
   font-size: 1.5em;
+  /* padding-bottom: 12px; */
 }
 
 /* #mainGrid::after {
@@ -57,7 +58,7 @@ body{
 
 #navs{
   grid-column: 3;
-  padding-bottom: 40px;
+  padding-bottom: 20px;
   text-align: right;
 }
 
