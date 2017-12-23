@@ -5,9 +5,10 @@ url('../HardestStyleDemo.ttf') format('truetype');
 }
 
 #viewport{
-  min-height: 90%;
-  width: 90%;
+  min-height: 93%;
+  width: 93%;
   position: absolute;
+  /* padding-left: 95px; */
 }
 
 
@@ -18,11 +19,35 @@ body{
 }
 
 #header{
-    display: grid;
-    grid-template-columns: 33.3% 33.3% 33.3%;
-    padding-top: 50px;
-    font-size: 1.5em;
+  display: grid;
+  grid-template-columns: 33.3% 33.3% 33.3%;
+  padding-top: 50px;
+  font-size: 1.5em;
+/* background-color: rgba(238, 238, 238, 0.91);
+background-image: url("Topographic-Map-Pattern-2.png");
+background-blend-mode: color; */
 }
+
+/* #mainGrid::after {
+    content: ' ';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    opacity: 0.035;
+    background-image: url("Topographic-Map-Pattern-2.png");
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+    -ms-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    background-size: cover;
+} */
+
 
 #title{
   grid-column: 1;
@@ -31,7 +56,7 @@ body{
 
 #myName{
   font-family: "HardestStyleDemo", 'Libre Baskerville', serif;
-  font-size: 2.75em;
+  font-size: 2.45em;
 }
 
 #navs{
@@ -97,4 +122,8 @@ body{
   padding-bottom: 40px;
   /* padding-right: 265px; */
   width: 100%;
+}
+
+#footer{
+  grid-row: 2;
 }
