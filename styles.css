@@ -1,20 +1,19 @@
 @font-face {
-font-family: "HardestStyleDemo";
-src: url('../HardestStyleDemo.otf') format('opentype'),
-url('../HardestStyleDemo.ttf') format('truetype');
+  font-family: "HardestStyleDemo";
+  src: url('../HardestStyleDemo.otf') format('opentype'),
+  url('../HardestStyleDemo.ttf') format('truetype');
 }
 
 #viewport{
   min-height: 93%;
   width: 93%;
   position: absolute;
-  /* padding-left: 95px; */
 }
 
 
 body{
   width: auto;
-  background-color: #faf8f8;
+  background-color: #efefef;
   font-family: 'Libre Baskerville', serif;
 }
 
@@ -23,9 +22,6 @@ body{
   grid-template-columns: 33.3% 33.3% 33.3%;
   padding-top: 50px;
   font-size: 1.5em;
-/* background-color: rgba(238, 238, 238, 0.91);
-background-image: url("Topographic-Map-Pattern-2.png");
-background-blend-mode: color; */
 }
 
 /* #mainGrid::after {
@@ -56,7 +52,7 @@ background-blend-mode: color; */
 
 #myName{
   font-family: "HardestStyleDemo", 'Libre Baskerville', serif;
-  font-size: 2.45em;
+  font-size: 2.2em;
 }
 
 #navs{
@@ -98,17 +94,25 @@ background-blend-mode: color; */
   grid-column: 2;
   grid-row: 1;
   display: none;
+  padding-bottom: 65px;
 }
 
 #tetons{
   padding-bottom: 15px;
+  padding-top: 10px;
+}
+
+#booksLink{
+  color: #FF6961;
+  text-decoration: none;
 }
 
 #mainExperiments{
   font-size: 1.5em;
-  grid-column: 2;
+  grid-column: 1;
   grid-row: 1;
   display: none;
+  padding-left: 105px;
 }
 
 #sepGrid{
@@ -120,10 +124,5 @@ background-blend-mode: color; */
   grid-column: 2;
   border-top: 1px solid #999999;
   padding-bottom: 40px;
-  /* padding-right: 265px; */
   width: 100%;
-}
-
-#footer{
-  grid-row: 2;
 }
