@@ -90,6 +90,13 @@ body{
   min-height:100vh;
 }
 
+#mainContact{
+  font-size: 1.0em;
+  grid-column: 2;
+  grid-row: 1;
+  display: none;
+}
+
 #mainAbout{
   font-size: 1.5em;
   grid-column: 2;
@@ -106,6 +113,11 @@ body{
 #booksLink{
   color: #FF6961;
   text-decoration: none;
+}
+
+#mainContact{
+    padding-left: 50px;
+    padding-top: 85px;
 }
 
 #mainExperiments{

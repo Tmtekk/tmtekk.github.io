@@ -5,6 +5,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 	<title>Tim Miller</title>
 	<link rel="stylesheet" type="text/css" href="styles.css">
+	<!-- <script src="jquery-3.2.1.min.js"></script> -->
 	<script src="function.js"></script>
 	<link href="https://fonts.googleapis.com/css?family=Libre+Baskerville" rel="stylesheet">
 </head>
@@ -14,10 +15,16 @@
 
 
 	<div id="header">
+	<div id="mainContact">
+		<a href="mailto:holocene86@gmail.com" class="link"> holocene86@gmail.com </a>
+		<a href="https://www.linkedin.com/in/tmtekk/" id="linkedin" class="link" target="_blank">
+			LinkedIn </a>
+	</div>
+
+
 		<div id="title">
 			<div id="myName">Tim Miller</div>
 			<div>Software Developer</div>
-
 			</div>
 			<div id=navs>
 				<a id="about" onclick="toggleAboutMe()" class="link"> About Me </a>
@@ -26,7 +33,7 @@
 				</br>
 				<a id="github" class="link"> Github </a>
 				</br>
-				<a id="contact" class="link"> Contact </a>
+				<a id="contact" class="link" onclick="toggleContact()"> Contact </a>
 				</br>
 			  <a id="resume" class="link"> Resum&eacute; </a>
 				</br>
