@@ -35,11 +35,15 @@ function toggleContact() {
     var y = document.getElementById('mainResume');
     if (y.style.display === "block")
       y.style.display = "none";
+
+    // var z = document.getElementById('dloadResume');
+    // if (y.style.display === "block")
+    //   y.style.display = "none";
 }
 
 function toggleResume() {
     var x = document.getElementById('mainResume');
-    var z = document.getElementById('dloadResume');
+    // var z = document.getElementById('dloadResume');
     if (x.style.display === "block") {
       x.style.display = "none";
     }
@@ -47,17 +51,42 @@ function toggleResume() {
       x.style.display = "block";
     }
 
-    if (z.style.display === "block") {
-      z.style.display = "none";
-    }
-    else {
-      z.style.display = "block";
-    }
+    // if (z.style.display === "block") {
+    //   z.style.display = "none";
+    // }
+    // else {
+    //   z.style.display = "block";
+    // }
     /*
     if the contact is being displayed, and the resume link is
     clicked, hide the contact section and display the resume.
     */
     var y = document.getElementById('mainContact');
-    if (y.style.display === "block")
+    if (y.style.display === "block"){
       y.style.display = "none";
+    }
+}
+
+function toggleDloadResume() {
+    var x = document.getElementById('dloadResume');
+    if (x.style.display === "block") {
+      x.style.display = "none";
+    }
+    else {
+      x.style.display = "block";
+    }
+
+    /*
+    if the contact is being displayed, and the resume link is
+    clicked, hide the contact section and display the resume.
+    */
+    // var y = document.getElementById('mainContact');
+    // if (y.style.display === "block"){
+    //   y.style.display = "none";
+    // }
+}
+
+function resumeBoth(){
+  toggleDloadResume();
+  toggleResume();
 }
