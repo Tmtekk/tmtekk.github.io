@@ -28,8 +28,8 @@ function toggleContact() {
     }
 }
 
-$(document).ready(function(){
-    $("contact").click(function(){
-        $("mainContact").fadeIn("slow");
-    });
-});
+// $(document).ready(function(){
+//     $("contact").click(function(){
+//         $("mainContact").fadeIn("slow");
+//     });
+// });
