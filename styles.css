@@ -153,3 +153,16 @@ body{
   padding-bottom: 40px;
   width: 100%;
 }
+
+svg{
+  stroke-dasharray: 20;
+  stroke-dasharray: 1604;
+  stroke-dashoffset: 1604;
+  animation: dash 2s linear forwards infinite;
+}
+
+@keyframes dash {
+  100%{
+    stroke-dashoffset: 0;
+  }
+}
