@@ -112,6 +112,17 @@ body{
   padding-left: 90px;
 }
 
+#dloadResume{
+  font-family: 'Libre Baskerville', serif;
+  grid-column: 1;
+  grid-row: 2;
+  text-decoration: none;
+  display: none;
+  font-size: 1.0em;
+  padding-left: 90px;
+  padding-bottom: 65px;
+}
+
 #tetons{
   padding-bottom: 15px;
   padding-top: 10px;

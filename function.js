@@ -38,12 +38,20 @@ function toggleContact() {
 }
 
 function toggleResume() {
-    var x = document.getElementById("mainResume");
+    var x = document.getElementById('mainResume');
+    var z = document.getElementById('dloadResume');
     if (x.style.display === "block") {
       x.style.display = "none";
     }
     else {
       x.style.display = "block";
+    }
+
+    if (z.style.display === "block") {
+      z.style.display = "none";
+    }
+    else {
+      z.style.display = "block";
     }
     /*
     if the contact is being displayed, and the resume link is
