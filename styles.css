@@ -62,10 +62,6 @@ body{
   text-align: right;
 }
 
-.link{
-
-}
-
 .link:link{
   text-decoration: none;
 }
@@ -91,10 +87,12 @@ body{
 }
 
 #mainContact{
-  font-size: 1.0em;
-  grid-column: 2;
+  font-size: 1.5em;
+  grid-column: 1;
   grid-row: 1;
   display: none;
+  padding-left: 90px;
+  padding-top: 10px;
 }
 
 #mainAbout{
@@ -105,6 +103,15 @@ body{
   padding-bottom: 65px;
 }
 
+#mainResume{
+  font-family: 'Libre Baskerville', serif;
+  grid-column: 1;
+  grid-row: 1;
+  display: none;
+  font-size: 1.0em;
+  padding-left: 90px;
+}
+
 #tetons{
   padding-bottom: 15px;
   padding-top: 10px;
@@ -113,11 +120,6 @@ body{
 #booksLink{
   color: #FF6961;
   text-decoration: none;
-}
-
-#mainContact{
-    padding-left: 50px;
-    padding-top: 92px;
 }
 
 #mainExperiments{
