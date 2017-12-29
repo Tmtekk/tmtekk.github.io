@@ -1,0 +1,81 @@
+body{
+    display: grid;
+    grid-template-columns: 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5%
+    grid-template-rows: 25% 25% 25% 25%
+    width: auto;
+    background-color: #f7f7f7;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 12px;
+
+}
+
+.imageLinks{
+  padding-left: 35px;
+}
+
+.imageLinks.columnOne.rowOne{
+  grid-column: 1;
+  grid-row: 1;
+  text-decoration: none;
+  color: black;
+}
+
+.imageLinks.columnTwo.rowOne{
+  grid-column: 2;
+  grid-row: 1;
+  text-decoration: none;
+  color: black
+}
+
+.imageLinks.columnThree.rowOne{
+  grid-column: 3;
+  grid-row: 1;
+  text-decoration: none;
+  color: black
+}
+
+.imageLinks.columnFour.rowOne{
+  grid-column: 4;
+  grid-row: 1;
+  text-decoration: none;
+  color: black
+}
+
+img{
+  width: 110px;
+  padding-left: 35px;
+  text-decoration: none;
+  padding-left: 35px;
+}
+
+.bookText.textColOne{
+  grid-column: 1;
+  grid-row: 2;
+  text-align: center;
+  width: 110px;
+  padding-left: 35px;
+}
+
+.bookText.textColTwo{
+  grid-column: 2;
+  grid-row: 2;
+  text-align: center;
+  width: 110px;
+  padding-left: 35px;
+}
+
+.bookText.textColThree{
+  grid-column: 3;
+  grid-row: 2;
+  text-align: center;
+  width: 110px;
+  padding-left: 35px;
+}
+
+.bookText.textColFour{
+  grid-column: 3;
+  grid-row: 2;
+  text-align: center;
+  width: 110px;
+  padding-left:35px;
+}
