@@ -8,6 +8,15 @@ function toggleAboutMe() {
     else {
       x.style.display = "block";
     }
+
+    var y = document.getElementById('mainExperiments');
+    if (y.style.display === "block")
+      y.style.display = "none";
+
+    var z = document.getElementById('mainExperiments2');
+    if (z.style.display === "block")
+      z.style.display = "none";
+
 }
 
 function toggleExperiments() {
@@ -18,7 +27,48 @@ function toggleExperiments() {
     else {
       x.style.display = "block";
     }
+    /*
+    if the skills is are displayed, and the project link is
+    clicked, hide the resume section and display projects.
+    */
+    var y = document.getElementById('mainResume');
+    if (y.style.display === "block")
+      y.style.display = "none";
+
+    var a = document.getElementById('mainAbout');
+    if (a.style.display === "block")
+      a.style.display = "none";
+
+    var b = document.getElementById('mainContact');
+    if (b.style.display === "block")
+      b.style.display = "none";
 }
+
+function toggleExperiments2() {
+    var x = document.getElementById("mainExperiments2");
+    if (x.style.display === "block") {
+      x.style.display = "none";
+    }
+    else {
+      x.style.display = "block";
+    }
+    /*
+    if the skills is are displayed, and the project link is
+    clicked, hide the resume section and display projects.
+    */
+    var y = document.getElementById('mainResume');
+    if (y.style.display === "block")
+      y.style.display = "none";
+
+    var a = document.getElementById('mainAbout');
+    if (a.style.display === "block")
+      a.style.display = "none";
+
+    var b = document.getElementById('mainContact');
+    if (b.style.display === "block")
+      b.style.display = "none";
+}
+
 
 function toggleContact() {
     var x = document.getElementById("mainContact");
@@ -29,16 +79,20 @@ function toggleContact() {
       x.style.display = "block";
     }
     /*
-    if the resume is being displayed, and the contact link is
+    if the skills is are being displayed, and the contact link is
     clicked, hide the resume section and display contact info.
     */
     var y = document.getElementById('mainResume');
     if (y.style.display === "block")
       y.style.display = "none";
 
-    // var z = document.getElementById('dloadResume');
-    // if (y.style.display === "block")
-    //   y.style.display = "none";
+    var z = document.getElementById('mainExperiments');
+    if (z.style.display === "block")
+      z.style.display = "none";
+
+    var a = document.getElementById('mainExperiments2');
+    if (a.style.display === "block")
+      a.style.display = "none";
 }
 
 function toggleResume() {
@@ -50,21 +104,23 @@ function toggleResume() {
     else {
       x.style.display = "block";
     }
-
-    // if (z.style.display === "block") {
-    //   z.style.display = "none";
-    // }
-    // else {
-    //   z.style.display = "block";
-    // }
     /*
     if the contact is being displayed, and the resume link is
     clicked, hide the contact section and display the resume.
     */
-    var y = document.getElementById('mainContact');
+    var y = document.getElementById('mainExperiments');
     if (y.style.display === "block"){
       y.style.display = "none";
     }
+
+    var a = document.getElementById('mainExperiments2');
+    if (a.style.display === "block"){
+      a.style.display = "none";
+    }
+
+    var y = document.getElementById('mainContact');
+    if (y.style.display === "block")
+      y.style.display = "none";
 }
 
 function toggleDloadResume() {
@@ -75,18 +131,14 @@ function toggleDloadResume() {
     else {
       x.style.display = "block";
     }
-
-    /*
-    if the contact is being displayed, and the resume link is
-    clicked, hide the contact section and display the resume.
-    */
-    // var y = document.getElementById('mainContact');
-    // if (y.style.display === "block"){
-    //   y.style.display = "none";
-    // }
 }
 
 function resumeBoth(){
   toggleDloadResume();
   toggleResume();
+}
+
+function projectsBoth(){
+  toggleExperiments();
+  toggleExperiments2();
 }
