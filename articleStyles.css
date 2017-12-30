@@ -1,0 +1,24 @@
+body{
+    display: grid;
+    width: auto;
+    background-color: #f7f7f7;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 19px;
+    text-align: center;
+}
+
+.links{
+  text-decoration: none;
+  color: #FF6961;
+}
+
+.author{
+  color: #4C4C4C;
+}
+
+#mainTitle{
+  font-size: 36px;
+  text-align: center;
+  padding-top: 12px;
+  color: #4C4C4C;
+}
