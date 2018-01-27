@@ -246,20 +246,22 @@ body{
 
 #siSynth{
   grid-row: 2;
-  padding-top: 230px;
+  padding-top: 170px;
   padding-bottom: 25px;
 }
 
 #synthScreen{
   padding-top: 15px;
-  height: 150px;
+  height: 100px;
+  /* width: auto; */
   grid-column: 1;
   grid-row: 2;
+
 }
 
 #synthGit{
   text-decoration: none;
-  color: #FF6961;  
+  color: #FF6961;
 }
 
 
